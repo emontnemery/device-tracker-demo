@@ -1,0 +1,7 @@
+__pycache__/
+*.log
+*.log.*
+fake_unifi/.cert/
+instances/*/*
+!instances/*/configuration.yaml
+!instances/*/custom_components

@@ -1,0 +1,14 @@
+# Minimal on purpose: default_config auto-discovers real LAN devices (cast etc.)
+# The port is set in .storage/http by scripts/start.sh; http: in YAML is deprecated
+# and would ask the user to confirm the new port on every fresh start.
+frontend:
+config:
+history:
+logbook:
+map:
+person:
+zone:
+mobile_app:
+demo_plug:
+demo_router:
+  mode: proposed
